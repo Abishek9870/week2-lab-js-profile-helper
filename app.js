@@ -144,7 +144,8 @@ addBtn.addEventListener('click', function () {
       ? 'Good progress 💪'
       : 'Keep going 🚀';
 
-  formMsg.textContent = `Student added successfully. ${progressMessage}`;
+  formMsg.textContent = `✅ Student added. ${progressMessage}`;
+
 
   renderStudentList(students);
 });
